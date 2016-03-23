@@ -9,6 +9,7 @@ public class ImplementacijaInterfejsa implements InterfejsMenjacnica {
 
 	@Override
 	public void dodajKursValute(Valuta v, Date datum, double prodajni, double srednji, double kupovni) {
+		//merge
 		if(v == null && datum == null)
 			throw new RuntimeException();
 		

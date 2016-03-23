@@ -10,6 +10,8 @@ public class Menjacnica {
 	}
 
 	public void setListaValuta(LinkedList<Valuta> listaValuta) {
+		if(listaValuta == null)
+			throw new RuntimeException("Nije uneta odgovarajuca lista valuta.");
 		this.listaValuta = listaValuta;
 	}
 	
